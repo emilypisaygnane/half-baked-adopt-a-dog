@@ -24,6 +24,6 @@ export async function getDog(id) {
     return checkError(response);
 }
 
-function checkError ({ data, error }) {
+function checkError({ data, error }) {
     return error ? console.error(error) : data;
 }
