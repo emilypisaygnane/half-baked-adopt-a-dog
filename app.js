@@ -13,6 +13,6 @@ window.addEventListener('load', async() => {
         const dogEl = renderDogCard(dog);
 
         dogListContainer.append(dogEl);
-    }
+    } 
 });
 // render and append all dog cards to the container
